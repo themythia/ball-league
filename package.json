@@ -1,5 +1,5 @@
 {
-  "name": "hash-history-basketball-league-v5",
+  "name": "ball-league",
   "version": "1.0.0",
   "dependencies": {
     "react": "^16.13.1",

@@ -1,5 +1,6 @@
-import useFetch from './useFetch'
+import useFetch from './useFetch';
 
-export default function useTeamsArticles (team) {
-  return useFetch('/articles', 'POST', JSON.stringify({ team }))
-}
+const useTeamsArticles = (team) => {
+  return useFetch('/articles', 'POST', JSON.stringify({ team }));
+};
+export default useTeamsArticles;

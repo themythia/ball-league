@@ -1,9 +1,6 @@
-import * as React from 'react'
+import * as React from 'react';
 
-export default function App () {
-  return (
-    <div>
-      Hash History Basketball League
-    </div>
-  )
-}
+const App = () => {
+  return <div>Hash History Basketball League</div>;
+};
+export default App;
