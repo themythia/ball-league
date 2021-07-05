@@ -26,7 +26,7 @@ const Sidebar = ({ title, list }) => {
               search: location.search,
             }}
           >
-            {item.toUppercase()}
+            {item.toUpperCase()}
           </CustomLink>
         ))}
       </ul>
