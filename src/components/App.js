@@ -1,6 +1,36 @@
 import * as React from 'react';
+import Nav from './Nav';
+import Home from './Home';
+import Players from './Players';
+import Teams from './Teams';
+import FourOhFour from './FourOhFour';
+import TeamPage from './TeamPage';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = () => {
-  return <div>Hash History Basketball League</div>;
+  return (
+    <React.Fragment>
+      <Router>
+        <Nav />
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/players'>
+            <Players />
+          </Route>
+          <Route exact path='/teams'>
+            <Teams />
+          </Route>
+          <Route path='/:teamName'>
+            <TeamPage />
+          </Route>
+          <Route path='*'>
+            <FourOhFour />
+          </Route>
+        </Switch>
+      </Router>
+    </React.Fragment>
+  );
 };
 export default App;
