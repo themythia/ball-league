@@ -4,7 +4,6 @@ import Home from './Home';
 import Players from './Players';
 import Teams from './Teams';
 import FourOhFour from './FourOhFour';
-import TeamPage from './TeamPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = () => {
@@ -21,9 +20,6 @@ const App = () => {
           </Route>
           <Route exact path='/teams'>
             <Teams />
-          </Route>
-          <Route path='/:teamName'>
-            <TeamPage />
           </Route>
           <Route path='*'>
             <FourOhFour />

@@ -1,6 +1,10 @@
 import React from 'react';
-
+import Sidebar from './Sidebar';
 const Teams = () => {
-  return <div>Teams</div>;
+  return (
+    <div>
+      <p>Teams</p>
+    </div>
+  );
 };
 export default Teams;
