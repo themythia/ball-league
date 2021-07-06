@@ -5,6 +5,7 @@ import Players from './Players';
 import Teams from './Teams';
 import FourOhFour from './FourOhFour';
 import TeamPage from './TeamPage';
+import Articles from './Articles';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = () => {
@@ -24,6 +25,9 @@ const App = () => {
           </Route>
           <Route path='/:teamId' exact>
             <TeamPage />
+          </Route>
+          <Route path='/:teamId/articles'>
+            <Articles />
           </Route>
           <Route path='*'>
             <FourOhFour />
