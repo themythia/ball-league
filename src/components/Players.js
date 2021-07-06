@@ -14,7 +14,7 @@ import slug from 'slug';
 
 const Player = ({ players }) => {
   const { playerId } = useParams();
-  const player = players.find(({ name }) => slug(name) == playerId);
+  const player = players.find(({ name }) => slug(name) === playerId);
   return (
     <div className='panel'>
       <img
