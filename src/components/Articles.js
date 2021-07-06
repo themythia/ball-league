@@ -3,6 +3,7 @@ import { useParams, Switch, Route, useRouteMatch } from 'react-router-dom';
 import useTeamsArticles from '../hooks/useTeamsArticles';
 import Sidebar from './Sidebar';
 import useArticle from '../hooks/useArticle';
+import Loading from './Loading';
 
 const Article = () => {
   const { teamId, articleId } = useParams();
@@ -28,7 +29,7 @@ const Articles = () => {
   const { path } = useRouteMatch();
 
   if (loading) {
-    return <p>Loading</p>;
+    return <Loading />;
   }
 
   return (

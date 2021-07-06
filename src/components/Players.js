@@ -11,6 +11,7 @@ import {
 import { parse } from 'query-string';
 import usePlayers from '../hooks/usePlayers';
 import slug from 'slug';
+import Loading from './Loading';
 
 const Player = ({ players }) => {
   const { playerId } = useParams();
@@ -65,7 +66,7 @@ const Players = () => {
   const { response: players, loading } = usePlayers(team);
 
   if (loading === true) {
-    return <p>LOADING</p>;
+    return <Loading />;
   }
 
   return (

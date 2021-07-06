@@ -6,6 +6,8 @@ import useTeam from '../hooks/useTeam';
 import TeamLogo from './TeamLogo';
 import { Link } from 'react-router-dom';
 import slug from 'slug';
+import Loading from './Loading';
+
 const useTeamPageData = (teamId) => {
   const { response: articles, loading: loadingArticles } =
     useTeamsArticles(teamId);
@@ -26,7 +28,7 @@ const TeamPage = () => {
   const { teamNames, articles, team, loading } = useTeamPageData(teamId);
 
   if (loading) {
-    return <p>Loading</p>;
+    return <Loading />;
   }
 
   if (!teamNames.includes(teamId)) {

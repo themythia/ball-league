@@ -3,15 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav>
-      <div className='nav-left'>
-        <Link to='/'>HOME</Link>
-      </div>
-      <div className='nav-right'>
-        <Link to='/players'>PLAYERS</Link>
-        <Link to='/teams'>TEAMS</Link>
-      </div>
-    </nav>
+    <div className='container navbar'>
+      <Link to='/'>Home</Link>
+      <nav className='nav-links'>
+        <Link to='/players'>Players</Link>
+        <Link to='/teams'>Teams</Link>
+      </nav>
+    </div>
   );
 };
 export default Nav;

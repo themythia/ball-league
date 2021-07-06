@@ -10,13 +10,14 @@ import {
 } from 'react-router-dom';
 import useTeam from '../hooks/useTeam';
 import TeamLogo from './TeamLogo';
+import Loading from './Loading';
 
 const Team = () => {
   const { teamId } = useParams();
   const { loading, response: team } = useTeam(teamId);
 
   if (loading) {
-    return null;
+    return <Loading />;
   }
 
   return (
@@ -48,7 +49,7 @@ const Teams = () => {
   const { url } = useRouteMatch();
 
   if (loading) {
-    return null;
+    return <Loading />;
   }
 
   return (
