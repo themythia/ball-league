@@ -13,7 +13,7 @@ const Articles = React.lazy(() => import('./Articles'));
 const App = () => {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Nav />
         <React.Suspense fallback={<Loading />}>
           <Switch>
