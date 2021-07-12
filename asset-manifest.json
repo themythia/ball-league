@@ -1,0 +1,39 @@
+{
+  "files": {
+    "static/js/0.c288e183.chunk.js": "/ball-league/static/js/0.c288e183.chunk.js",
+    "static/js/0.c288e183.chunk.js.map": "/ball-league/static/js/0.c288e183.chunk.js.map",
+    "static/js/1.2f14af1b.chunk.js": "/ball-league/static/js/1.2f14af1b.chunk.js",
+    "static/js/1.2f14af1b.chunk.js.map": "/ball-league/static/js/1.2f14af1b.chunk.js.map",
+    "main.css": "/ball-league/static/css/main.f60841ad.chunk.css",
+    "main.js": "/ball-league/static/js/main.790ca350.chunk.js",
+    "main.js.map": "/ball-league/static/js/main.790ca350.chunk.js.map",
+    "runtime-main.js": "/ball-league/static/js/runtime-main.accae3a6.js",
+    "runtime-main.js.map": "/ball-league/static/js/runtime-main.accae3a6.js.map",
+    "static/js/4.eccb18eb.chunk.js": "/ball-league/static/js/4.eccb18eb.chunk.js",
+    "static/js/4.eccb18eb.chunk.js.map": "/ball-league/static/js/4.eccb18eb.chunk.js.map",
+    "static/js/5.3a6241d3.chunk.js": "/ball-league/static/js/5.3a6241d3.chunk.js",
+    "static/js/5.3a6241d3.chunk.js.map": "/ball-league/static/js/5.3a6241d3.chunk.js.map",
+    "static/js/6.c7159238.chunk.js": "/ball-league/static/js/6.c7159238.chunk.js",
+    "static/js/6.c7159238.chunk.js.map": "/ball-league/static/js/6.c7159238.chunk.js.map",
+    "static/js/7.651e51d2.chunk.js": "/ball-league/static/js/7.651e51d2.chunk.js",
+    "static/js/7.651e51d2.chunk.js.map": "/ball-league/static/js/7.651e51d2.chunk.js.map",
+    "static/js/8.e2211f72.chunk.js": "/ball-league/static/js/8.e2211f72.chunk.js",
+    "static/js/8.e2211f72.chunk.js.map": "/ball-league/static/js/8.e2211f72.chunk.js.map",
+    "static/js/9.a9c0f914.chunk.js": "/ball-league/static/js/9.a9c0f914.chunk.js",
+    "static/js/9.a9c0f914.chunk.js.map": "/ball-league/static/js/9.a9c0f914.chunk.js.map",
+    "static/js/10.ae0f942d.chunk.js": "/ball-league/static/js/10.ae0f942d.chunk.js",
+    "static/js/10.ae0f942d.chunk.js.map": "/ball-league/static/js/10.ae0f942d.chunk.js.map",
+    "index.html": "/ball-league/index.html",
+    "precache-manifest.234e7432b14ecc3ac52377b86414b08c.js": "/ball-league/precache-manifest.234e7432b14ecc3ac52377b86414b08c.js",
+    "service-worker.js": "/ball-league/service-worker.js",
+    "static/css/main.f60841ad.chunk.css.map": "/ball-league/static/css/main.f60841ad.chunk.css.map",
+    "static/js/0.c288e183.chunk.js.LICENSE.txt": "/ball-league/static/js/0.c288e183.chunk.js.LICENSE.txt",
+    "static/js/4.eccb18eb.chunk.js.LICENSE.txt": "/ball-league/static/js/4.eccb18eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.accae3a6.js",
+    "static/js/4.eccb18eb.chunk.js",
+    "static/css/main.f60841ad.chunk.css",
+    "static/js/main.790ca350.chunk.js"
+  ]
+}
